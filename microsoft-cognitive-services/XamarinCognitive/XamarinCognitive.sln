@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidCognitiveApp", "AndroidCognitiveApp\AndroidCognitiveApp.csproj", "{684DB5E9-6620-4318-8607-BBC3FF4B62BD}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "EmotionLibrary", "EmotionLibrary\EmotionLibrary.shproj", "{0B8369F1-CA4B-46D8-845C-F39549784C6E}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		EmotionLibrary\EmotionLibrary.projitems*{684db5e9-6620-4318-8607-bbc3ff4b62bd}*SharedItemsImports = 4
+		EmotionLibrary\EmotionLibrary.projitems*{0b8369f1-ca4b-46d8-845c-f39549784c6e}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{684DB5E9-6620-4318-8607-BBC3FF4B62BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{684DB5E9-6620-4318-8607-BBC3FF4B62BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{684DB5E9-6620-4318-8607-BBC3FF4B62BD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{684DB5E9-6620-4318-8607-BBC3FF4B62BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{684DB5E9-6620-4318-8607-BBC3FF4B62BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{684DB5E9-6620-4318-8607-BBC3FF4B62BD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
