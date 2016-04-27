@@ -2,7 +2,7 @@
 
 	"event": "SimonSays",
 
-	"url": "https://InternetButton-ns.servicebus.windows.net/internetbuttonhub/messages",
+	"url": "https://minihack-internet-button-hub-ns.servicebus.windows.net/minihack-internet-button-hub/messages",
 
 	"requestType": "POST",
 
