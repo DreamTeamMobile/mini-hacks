@@ -47,7 +47,13 @@ namespace SmartCoffee
 			{
 				ButtonText = isCoffeeBrewing ? "Start Brewing" : "Stop Brewing";
 
-				// TODO #5: Send a message to Azure IoT Hub.
+                if (smartCoffeesService == null)
+                    smartCoffeesService = await SmartCoffeeService.GetCoffeeServiceApi();
+
+                if (!isCoffeeBrewing)
+                    await smartCoffeesService.SendMessageToDevice(TURN_ON_EVENT_MESSAGE);
+                else
+                    await smartCoffeesService.SendMessageToDevice(TURN_OFF_EVENT_MESSAGE);
 
 				isCoffeeBrewing = !isCoffeeBrewing;
 			}

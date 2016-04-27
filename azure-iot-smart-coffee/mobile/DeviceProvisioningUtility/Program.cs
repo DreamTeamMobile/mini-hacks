@@ -11,10 +11,10 @@ namespace DeviceProvisioningUtility
 		static RegistryManager registryManager;
 
 		// TODO #1: Insert your own IoT Hub here.
-		static string iotHubUrl = ""; // Example: "PierceHub.azure-devices.net"
-		static string policyName = ""; // Example: "iothubowner"
-		static string policyKey = ""; // Example: SPHff77vetNDgrZahijsTMhGqZd0MllkgG0JyLzfz2E=
-		static string connectionString = ""; // Example: HostName=PierceHub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=SPHff77vetNDgrZahijsTMhGqZd0MllkgG0JyLzfz2E=
+        static string iotHubUrl = "xamarin-minihack-smartcoffee.azure-devices.net"; // Example: "PierceHub.azure-devices.net"
+        static string policyName = "iothubowner"; // Example: "iothubowner"
+        static string policyKey = "sgk49UbkdOMjaZvuW2iL3gh0Gs52ZrcBO7EWkUTOLN8="; // Example: SPHff77vetNDgrZahijsTMhGqZd0MllkgG0JyLzfz2E=
+        static string connectionString = "HostName=xamarin-minihack-smartcoffee.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=sgk49UbkdOMjaZvuW2iL3gh0Gs52ZrcBO7EWkUTOLN8="; // Example: HostName=PierceHub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=SPHff77vetNDgrZahijsTMhGqZd0MllkgG0JyLzfz2E=
 
 		public static void Main(string[] args)
 		{

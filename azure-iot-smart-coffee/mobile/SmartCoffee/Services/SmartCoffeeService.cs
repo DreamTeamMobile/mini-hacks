@@ -24,7 +24,13 @@ namespace SmartCoffee
 
 		public static async Task<SmartCoffeeService> GetCoffeeServiceApi()
 		{
-			// TODO #4: Create a connection with Azure IoT Hub.
+            if (connectionFactory == null)
+                connectionFactory = new ConnectionFactory();
+
+            var address = new Address(Constants.HubHostName, 5671, Constants.Username, Constants.Password, Constants.RecipientLocation);
+            var client = await connectionFactory.CreateAsync(address);
+
+            return new SmartCoffeeService(client);
 
 			return null;
 		}
