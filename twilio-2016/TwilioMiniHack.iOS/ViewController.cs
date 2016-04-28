@@ -142,7 +142,7 @@ namespace TwilioMiniHack.iOS
             var deviceId = UIDevice.CurrentDevice.IdentifierForVendor.AsString();
 
             // If you are using PHP it will be $"https://YOUR_TOKEN_SERVER_URL/token.php?device={deviceId}"
-            var tokenEndpoint = $"https://YOUR_TOKEN_SERVER_URL/token?device={deviceId}";
+            var tokenEndpoint = $"https://twilio-drmtmxamarin.rhcloud.com/token?device={deviceId}";
 
             var http = new HttpClient();
             var data = await http.GetStringAsync(tokenEndpoint);
