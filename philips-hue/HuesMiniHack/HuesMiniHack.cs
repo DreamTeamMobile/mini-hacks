@@ -8,10 +8,10 @@ namespace HuesMiniHack
     {
 
         //TODO 1: Set App Name & Device Name
-        public static string AppName = "";
+        public static string AppName = "DreamTeamMobileHueLamp";
 
         //Philips Hue asks that all published apps use the name of their app as the device name. 
-        public static string DeviceName = "";
+        public static string DeviceName = "DreamTeamMobileHueDevice";
 
         public App()
         {
